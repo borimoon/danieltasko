@@ -15,6 +15,24 @@ const Work = resolve => {
   }, 'work');
 };
 
+const Cases = resolve => {
+  require.ensure(['./components/cases/Cases.vue'], () => {
+    resolve(require('./components/cases/Cases.vue'));
+  }, 'case');
+};
+
+const CaseOne = resolve => {
+  require.ensure(['./components/cases/CaseOne.vue'], () => {
+    resolve(require('./components/cases/CaseOne.vue'));
+  }, 'case');
+};
+
+const CaseTwo = resolve => {
+  require.ensure(['./components/cases/CaseTwo.vue'], () => {
+    resolve(require('./components/cases/CaseTwo.vue'));
+  }, 'case');
+};
+
 export const routes = [
   {
     path: '',
@@ -38,6 +56,25 @@ export const routes = [
       default: Work,
       'header': HeaderWork
     }
+  },
+
+  {
+    path: '/cases',
+    name: 'cases',
+    component: Cases,
+    redirect: '/mi',
+    children:
+    [
+      {
+        path: '/mi',
+        component: CaseOne
+      },
+
+      {
+        path: '/harmony',
+        component: CaseTwo
+      }
+    ]
   },
 
   {

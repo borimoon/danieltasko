@@ -2,7 +2,7 @@
   <section class="work">
     <div class="work-title">
       <h1 class="main-heading">Case studies</h1>
-      <h2 class="subheading">(Freelance projects)</h2>
+      <h2>(Freelance projects)</h2>
     </div>
 
     <ul class="cases">
@@ -25,7 +25,7 @@
         caseStudies: [
           {
             title: 'Mindful minimalism',
-            href: '/',
+            href: '/mi',
             src: 'src/assets/cs-mi.svg',
             role: 'UX/UI',
             time: '5 minutes read'
@@ -33,7 +33,7 @@
 
           {
             title: 'The new harmony',
-            href: '/',
+            href: '/harmony',
             src: 'src/assets/cs-har.svg',
             role: 'UX/UI',
             time: '4 minutes read'
@@ -42,5 +42,4 @@
       };
     }
   }
-
 </script>
