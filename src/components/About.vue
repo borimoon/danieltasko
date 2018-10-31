@@ -1,7 +1,7 @@
 <template>
   <section class="about">
     <main class="main">
-      <h1 class="main-heading main-heading-about">Hi, I'm Daniel</h1>
+      <h1 class="main-heading">Hi, I'm Daniel</h1>
       <p class="side-text-main"><small><strong>Tasko</strong> [:taʃkəʊ]</small></p>
 
       <div class="main-text">
