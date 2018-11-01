@@ -1,9 +1,8 @@
 <template>
   <article class="article">
-    <header class="article-title">
-      <h1 class="main-heading">Mindful Minimalism</h1>
-      <h2 class="subheading">UX/UI design for Mi Műhely Architect Studio</h2>
-    </header>
+    <article-header></article-header>
+
+    <h2 class="subheading-case">UX/UI design for Mi Műhely Architect Studio</h2>
 
     <div class="article-content">
       <p>
@@ -28,3 +27,12 @@
     </div>
   </article>
 </template>
+
+<script>
+import ArticleHeader from './ArticleHeader.vue';
+export default {
+  components: {
+    'articleHeader': ArticleHeader
+  }
+}
+</script>

@@ -2,7 +2,7 @@
   <section class="work">
     <div class="work-title">
       <h1 class="main-heading">Case studies</h1>
-      <h2>(Freelance projects)</h2>
+      <h2 class="subheading">(Freelance projects)</h2>
     </div>
 
     <ul class="cases">
