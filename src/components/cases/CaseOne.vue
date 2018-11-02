@@ -27,6 +27,10 @@
         In addition to the Home page, we were thinking of an extra feature, which leads the user's first impression of the company, and which is also amusing. After several brainstorming sessions, we began with sketching a little game which is somehow connected to architecture and represents the Mi-team's "Let's make together"-attitude. The first results were three different ideas:
       </p>
     </div>
+
+    <div class="bottom-navigation">
+      <router-link class="bottom-nav-link next" to="/harmony">Next case study</router-link>
+    </div>
   </article>
 </template>
 

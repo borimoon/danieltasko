@@ -5,6 +5,10 @@
     </article-header>
 
     <h2 class="subheading subheading-case">UX/UI design for Harmonie tánc Studio</h2>
+
+    <div class="bottom-navigation">
+      <router-link class="bottom-nav-link prev" to="/mi">Previous case study</router-link>
+    </div>
   </article>
 </template>
 

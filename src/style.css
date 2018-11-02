@@ -465,6 +465,46 @@ q::after {
   width: calc(100% - 3rem);
 }
 
+.bottom-navigation {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 5em 1.5rem;
+}
+
+.bottom-nav-link {
+  color: #00C4FF;
+  font-weight: 600;
+  position: relative;
+  text-align: center;
+}
+
+.next,
+.prev {
+  font-size: 1.9rem;
+  -webkit-transition: font-size .1s ease-in-out;
+  -moz-transition: font-size .1s ease-in-out;
+  -o-transition: font-size .1s ease-in-out;
+  transition: font-size .1s ease-in-out;
+}
+
+.next::after {
+  color: #00C4FF;
+  content: '>';
+  position: absolute;
+  right: -2rem;
+  top: .1rem;
+}
+
+.prev::before {
+  color: #00C4FF;
+  content: '<';
+  position: absolute;
+  left: -2rem;
+  top: 0;
+}
+
 /* small screen portrait fix */
 @media (min-width: 300px) and (min-height: 400px) and (max-width: 600px) and (max-height: 900px) and (orientation: portrait) {
 
@@ -666,5 +706,10 @@ q::after {
 
   .cases li:first-child {
     margin-right: 7rem;
+  }
+
+  .next:hover,
+  .prev:hover {
+    font-size: 2.2rem;
   }
 }
