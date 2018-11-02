@@ -1,15 +1,14 @@
 <template>
   <section class="home">
-    <div class="illustration">
+    <div class="intro">
       <span></span>
-      <div class="question">
-        <img src="src/assets/question.svg" />
-      </div>
-    </div>
 
-    <div class="intro-text">
-      <h1 class="main-heading main-heading-home">Curious?</h1>
-      <button class="my-button" @click="navigateToAbout">Hell yes!</button>
+      <img class="question" src="src/assets/question.svg" />
+
+      <div class="intro-text">
+        <h1 class="main-heading main-heading-home">Curious?</h1>
+        <button class="my-button" @click="navigateToAbout">Hell yes!</button>
+      </div>
     </div>
   </section>
 </template>
