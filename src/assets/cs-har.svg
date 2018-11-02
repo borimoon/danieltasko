@@ -1,32 +1,24 @@
-<svg width="475" height="319" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="477" height="320" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <linearGradient x1="50%" y1="3.201%" x2="50%" y2="100%" id="b">
-      <stop stop-color="#00C4FF" offset="0%"/>
-      <stop stop-color="#00D1FF" offset="100%"/>
-    </linearGradient>
-    <path id="a" d="M48.527 1.178L.58 317.738h213.14L213.142 0z"/>
-    <linearGradient x1="0%" y1="0%" x2="102%" y2="101%" id="d">
+    <path id="a" d="M49.213.266L.326 320.126h214.616V.267z"/>
+    <linearGradient x1="0%" y1="0%" x2="102%" y2="101%" id="b">
       <stop stop-color="#A427FB" offset="0%"/>
       <stop stop-color="#D86DCD" offset="100%"/>
     </linearGradient>
   </defs>
   <g fill="none" fill-rule="evenodd">
+    <path fill="#FFF" d="M.312 0h476v320h-476z"/>
     <g stroke="#979797" stroke-linecap="square">
-      <path d="M.772 311.773L470.867 1.82M.772 1.3l472.154 316.194"/>
+      <path d="M1.812 318.5l473-317M474.551 319.5L1.811 1.5"/>
     </g>
-    <g transform="translate(260.688)">
+    <g transform="translate(261.058 -.266)">
       <mask id="c" fill="#fff">
         <use xlink:href="#a"/>
       </mask>
-      <use fill="url(#b)" xlink:href="#a"/>
-      <g mask="url(#c)">
-        <g transform="translate(-88.808 -51.266)">
-          <path fill="url(#d)" d="M24.866 32H322v351.33H24.866z"/>
-          <path stroke="#FFF" stroke-width="2" d="M276.49 383.33L163.407 160.79h226.165z"/>
-          <ellipse stroke="#FFF" stroke-width="2" cx="137.949" cy="135.738" rx="137.949" ry="135.738"/>
-        </g>
-      </g>
+      <path fill="url(#b)" mask="url(#c)" d="M-65.192-15.734h297.134v351.33H-65.192z"/>
+      <path stroke="#FFF" stroke-width="2" mask="url(#c)" transform="rotate(180 186.432 224.326)" d="M186.432 113.055l113.082 222.541H73.35z"/>
+      <ellipse stroke="#FFF" stroke-width="2" mask="url(#c)" cx="47.891" cy="88.005" rx="137.949" ry="135.738"/>
     </g>
-    <path stroke="#979797" d="M.5.5h472.699v317.274H.5z"/>
+    <path stroke="#979797" d="M.812.5h475v319h-475z"/>
   </g>
 </svg>

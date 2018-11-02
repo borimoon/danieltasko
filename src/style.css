@@ -245,7 +245,7 @@ q::after {
 }
 
 .main,
-.work,
+.work-content,
 .article-content {
   margin: 0 1.5rem 0 1.5rem;
 }
@@ -257,13 +257,17 @@ q::after {
 
 /* a b o u t */
 .about {
-  background: url('assets/bg.svg') repeat;
+  background: url('assets/bg-about.svg') repeat;
   height: 100vh;
   position: relative;
 }
 
 .main-text {
   margin-bottom: 3em;
+}
+
+.main-text {
+  font-weight: 600;
 }
 
 .main-text p:last-of-type {
@@ -281,6 +285,7 @@ q::after {
 }
 
 .text-center {
+  font-style: italic;
   text-align: center;
 }
 
@@ -306,6 +311,10 @@ q::after {
 }
 
 /* w o r k */
+.work {
+  background: url('assets/bg-work.svg') repeat;
+}
+
 .work-title {
   text-align: center;
 }
@@ -319,7 +328,7 @@ q::after {
 }
 
 .cases li {
-  border: 3px solid #fff;
+  border: 16px solid transparent;
 }
 
 .cases p {
@@ -537,7 +546,7 @@ q::after {
 @media (min-width: 600px) {
 /* LAYOUT 600 */
   .main,
-  .work,
+  .work-content,
   .article-content {
     margin-left: 9rem;
     margin-right: 9rem;
@@ -568,6 +577,10 @@ q::after {
     flex-direction: row;
   }
 
+  .cases li {
+    border: none;
+  }
+
   .cases li:first-child {
     margin-right: 3rem;
   }
@@ -594,15 +607,11 @@ q::after {
 
 /* LAYOUT 900 */
   .main,
-  .work,
+  .work-content,
   .article-content {
     margin-left: auto;
     margin-right: auto;
     width: 700px;
-  }
-
-  .cases li:first-child {
-    margin-right: 5rem;
   }
 
 /* a b o u t 900 */
@@ -617,6 +626,15 @@ q::after {
   .retro-logo {
     bottom: 3.5em;
     width: 120px;
+  }
+
+/* w o r k 900 */
+  .cases li {
+    border: 16px solid transparent;
+  }
+
+  .cases li:first-child {
+    margin-right: 5rem;
   }
 
 /* CASE STUDIES 900 */
@@ -643,6 +661,11 @@ q::after {
 
 /* 1 2 0 0 */
 @media (min-width: 1200px) {
+/* LAYOUT 1200 */
+  .work-content {
+    width: 800px;
+  }
+
 /* h o m e 1200 */
   .illustration span {
     height: 57vh;
@@ -668,16 +691,12 @@ q::after {
     background-color: #00C4FF;
   }
 
-  .cases li:first-child {
-    margin-right: 7rem;
-  }
-
+/* w o r k 1200 */
   .cases li:hover {
     border-color: #00C4FF;
   }
 
-/* LAYOUT 1200 */
-  .work {
-    width: 800px;
+  .cases li:first-child {
+    margin-right: 7rem;
   }
 }
