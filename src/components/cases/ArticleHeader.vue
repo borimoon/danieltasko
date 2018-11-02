@@ -1,11 +1,12 @@
 <template>
   <header id="header" class="article-title" v-on:scroll="handleScroll">
-    <h1 class="main-heading heading-case">Mindful Minimalism</h1>
+    <slot></slot>
   </header>
 </template>
 
 <script>
 export default {
+
   methods: {
     handleScroll() {
       const header = document.getElementById("header");
@@ -34,7 +35,10 @@ export default {
     height: 25rem;
     position: fixed;
     top: 0;
-    transition: height .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
     width: 100%;
   }
 

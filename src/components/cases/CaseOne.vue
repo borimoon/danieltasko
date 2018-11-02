@@ -1,6 +1,8 @@
 <template>
   <article class="article">
-    <article-header></article-header>
+    <article-header>
+      <h1 class="main-heading heading-case">Mi műhely</h1>
+    </article-header>
 
     <h2 class="subheading-case">UX/UI design for Mi Műhely Architect Studio</h2>
 
@@ -31,6 +33,7 @@
 <script>
 import ArticleHeader from './ArticleHeader.vue';
 export default {
+
   components: {
     'articleHeader': ArticleHeader
   }

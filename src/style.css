@@ -63,6 +63,10 @@ small {
   font-size: 2.2rem;
   font-weight: 600;
   padding: 1.5rem 2rem;
+  -webkit-transition: background-color .1s ease-in-out;
+  -moz-transition: background-color .1s ease-in-out;
+  -o-transition: background-color .1s ease-in-out;
+  transition: background-color .1s ease-in-out;
 }
 
 .my-button:focus {
@@ -321,6 +325,10 @@ q::after {
 
 .cases li {
   border: 16px solid transparent;
+  -webkit-transition: border-color .1s ease-in-out;
+  -moz-transition: border-color .1s ease-in-out;
+  -o-transition: border-color .1s ease-in-out;
+  transition: border-color .1s ease-in-out;
 }
 
 .cases p {
@@ -375,6 +383,10 @@ q::after {
 
 .links li a {
   color: #979797;
+  -webkit-transition: color .1s ease-in-out;
+  -moz-transition: color .1s ease-in-out;
+  -o-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
 }
 
 /* CASE STUDIES */

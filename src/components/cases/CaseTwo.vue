@@ -1,6 +1,8 @@
 <template>
   <article class="article">
-    <article-header></article-header>
+    <article-header>
+      <h1 class="main-heading heading-case">Harmonie tánc</h1>
+    </article-header>
 
     <h2 class="subheading subheading-case">UX/UI design for Harmonie tánc Studio</h2>
   </article>
