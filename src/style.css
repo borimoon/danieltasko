@@ -367,6 +367,7 @@ q::after {
 }
 
 .links li::after {
+  color: #979797;
   content: '/';
   right: -.7rem;
   position: absolute;
@@ -378,6 +379,10 @@ q::after {
 
 .links li:last-child::after {
   content: none;
+}
+
+.links li a {
+  color: #979797;
 }
 
 /* CASE STUDIES */
@@ -400,7 +405,7 @@ q::after {
 
 .go-back span::before,
 .go-back span::after {
-  background-color: #171717;
+  background-color: #070707;
   bottom: 15px;
   content: '';
   display: block;
@@ -689,6 +694,11 @@ q::after {
   .primary-button:hover {
     color: #fff;
     background-color: #00C4FF;
+  }
+
+  .links li a:hover {
+    color: #00C4FF;
+    text-decoration: underline;
   }
 
 /* w o r k 1200 */
