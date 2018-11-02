@@ -109,18 +109,34 @@ q::after {
 .home,
 .intro,
 .intro-text,
+.menu,
+.about,
+.main,
+.cases,
+.footer,
+.links,
+.work,
+.article-title,
+.article-content,
+.bottom-navigation {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.home,
+.intro,
+.intro-text,
 .about,
 .main,
 .cases,
 .work,
 .article-content {
-  display: -webkit-flex;
-  display: flex;
   -webkit-flex-direction: column;
   flex-direction: column;
 }
 
 .intro,
+.menu,
 .about,
 .work,
 .article-content {
@@ -130,7 +146,8 @@ q::after {
 
 .home,
 .intro,
-.intro-text {
+.intro-text,
+.article-title {
   -webkit-align-items: center;
   align-items: center;
 }
@@ -226,10 +243,6 @@ q::after {
 }
 
 .menu {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
   left: 50%;
   margin-left: -110px;
   margin-top: 1em;
@@ -278,6 +291,12 @@ q::after {
   line-height: .5;
   margin-bottom: 3em;
   margin-left: 15rem;
+}
+
+@media (max-width: 320px) {
+  .side-text-main {
+    margin-left: 0;
+  }
 }
 
 .text {
@@ -344,8 +363,6 @@ q::after {
 
 /* f o o t e r */
 .footer {
-  display: -webkit-flex;
-  display: flex;
   -webkit-justify-content: center;
   justify-content: center;
   margin-bottom: .5em;
@@ -354,11 +371,6 @@ q::after {
 .logo {
   margin-bottom: 1em;
   width: 42px;
-}
-
-.links {
-  display: -webkit-flex;
-  display: flex;
 }
 
 .links li {
@@ -441,9 +453,7 @@ q::after {
 }
 
 .article-title {
-  align-items: center;
-  display: -webkit-flex;
-  display: flex;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
@@ -466,8 +476,6 @@ q::after {
 }
 
 .bottom-navigation {
-  display: -webkit-flex;
-  display: flex;
   -webkit-justify-content: center;
   justify-content: center;
   padding: 5em 1.5rem;
