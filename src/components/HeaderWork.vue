@@ -11,6 +11,6 @@
 .menu li.active > a::before,
 .menu li.active > a::before,
 .menu li.active > a::before {
-  background-color: #00C4FF;
+  background-color: #00CFFF;
 }
 </style>

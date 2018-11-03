@@ -50,6 +50,10 @@ a {
   text-decoration: none;
 }
 
+a:focus {
+  outline:none;
+}
+
 small {
   font-size: 1.4rem;
 }
@@ -179,19 +183,19 @@ q::after {
 
 @-webkit-keyframes colorLoop {
   0% { background-color: #FFE300; }
-  50% { background-color: #00C4FF; }
+  50% { background-color: #00CFFF; }
   100% { background-color: #FFE300; }
 }
 
 @-moz-keyframes colorLoop {
   0% { background-color: #FFE300; }
-  50% { background-color: #00C4FF; }
+  50% { background-color: #00CFFF; }
   100% { background-color: #FFE300; }
 }
 
 @keyframes colorLoop {
   0% { background-color: #FFE300; }
-  50% { background-color: #00C4FF; }
+  50% { background-color: #00CFFF; }
   100% { background-color: #FFE300; }
 }
 
@@ -251,9 +255,14 @@ q::after {
 }
 
 .menu li a {
+  border: 3px dotted transparent;
   font-weight: 600;
-  padding: 0 .5em;
+  padding: 0 5px;
   position: relative;
+}
+
+.menu li a:focus {
+  border-color: #070707;
 }
 
 .menu li.active > a::before,
@@ -264,7 +273,7 @@ q::after {
   display: block;
   height: 16px;
   position: absolute;
-  width: 100%;
+  width: calc(100% + 6px);
   z-index: -1;
 }
 
@@ -311,7 +320,7 @@ q::after {
 .primary-button {
   -webkit-align-self: center;
   align-self: center;
-  border-color: #00C4FF;
+  border-color: #00CFFF;
   margin-top: 1em;
   width: 100%;
 }
@@ -394,11 +403,12 @@ q::after {
 }
 
 .links li a {
+  border: 1px solid transparent;
   color: #979797;
-  -webkit-transition: color .1s ease-in-out;
-  -moz-transition: color .1s ease-in-out;
-  -o-transition: color .1s ease-in-out;
-  transition: color .1s ease-in-out;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
 }
 
 /* CASE STUDIES */
@@ -482,35 +492,48 @@ q::after {
 }
 
 .bottom-nav-link {
-  color: #00C4FF;
+  border: 3px dotted transparent;
+  color: #00CFFF;
   font-weight: 600;
+  padding: 0 1rem;
   position: relative;
   text-align: center;
+}
+
+.bottom-nav-link:focus {
+  border-color: #00CFFF;
 }
 
 .next,
 .prev {
   font-size: 1.9rem;
+  font-weight: 800;
   -webkit-transition: font-size .1s ease-in-out;
   -moz-transition: font-size .1s ease-in-out;
   -o-transition: font-size .1s ease-in-out;
   transition: font-size .1s ease-in-out;
 }
 
-.next::after {
-  color: #00C4FF;
-  content: '>';
+.next::after,
+.prev::before {
+  background-size: cover;
+  content: '';
+  display: block;
+  height: 54px;
   position: absolute;
-  right: -2rem;
-  top: .1rem;
+  width: 30px;
+}
+
+.next::after {
+  background: url('assets/arrow-right.svg') no-repeat;
+  right: -3rem;
+  top: -1rem;
 }
 
 .prev::before {
-  color: #00C4FF;
-  content: '<';
-  position: absolute;
-  left: -2rem;
-  top: 0;
+  background: url('assets/arrow-left.svg') no-repeat;
+  left: -3rem;
+  top: -1rem;
 }
 
 /* small screen portrait fix */
@@ -699,17 +722,23 @@ q::after {
 /* a b o u t 1200 */
   .primary-button:hover {
     color: #fff;
-    background-color: #00C4FF;
+    background-color: #00CFFF;
   }
 
   .links li a:hover {
-    color: #00C4FF;
-    text-decoration: underline;
+    border-bottom-color: #00CFFF;
+    color: #00CFFF;
+  }
+
+  .links li a:focus {
+    border-style: dotted;
+    border-bottom-color: #00CFFF;
+    color: #00CFFF;
   }
 
 /* w o r k 1200 */
   .cases li:hover {
-    border-color: #00C4FF;
+    border-color: #00CFFF;
   }
 
   .cases li:first-child {
@@ -718,6 +747,6 @@ q::after {
 
   .next:hover,
   .prev:hover {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
   }
 }
