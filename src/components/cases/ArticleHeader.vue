@@ -31,8 +31,7 @@ export default {
 </script>
 <style scoped>
   .article-title {
-    background-color: transparent;
-    height: 25rem;
+    padding-top: 10em;
     position: fixed;
     top: 0;
     -webkit-transition: all .2s ease-in-out;
@@ -40,11 +39,28 @@ export default {
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     width: 100%;
+    z-index: 9;
+  }
+
+  .article-title .heading-case {
+    font-size: 4.7rem;
+    -webkit-transition: font-size .2s ease-in-out;
+    -moz-transition: font-size .2s ease-in-out;
+    -o-transition: font-size .2s ease-in-out;
+    transition: font-size .2s ease-in-out;
+  }
+
+  @media (min-width: 900px) {
+    .article-title .heading-case {
+      font-size: 7rem;
+      text-align: center;
+    }
   }
 
   .article-title.smaller {
     background-color: #fff;
-    height: 5rem;
+    padding-bottom: 2em;
+    padding-top: 2em;
   }
 
   .article-title.smaller .heading-case {

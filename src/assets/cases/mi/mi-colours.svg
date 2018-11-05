@@ -1,0 +1,20 @@
+<svg width="494" height="103" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(-6 .834)" fill="none" fill-rule="evenodd">
+    <text font-family="OpenSans, Open Sans" font-size="19" fill="#070707">
+      <tspan x="154.986" y="101">#070707</tspan>
+    </text>
+    <text font-family="OpenSans, Open Sans" font-size="19" fill="#070707">
+      <tspan x="286.431" y="101">#E6E6E6</tspan>
+    </text>
+    <text font-family="OpenSans, Open Sans" font-size="19" fill="#070707">
+      <tspan x="418.239" y="101">#B9BBBE</tspan>
+    </text>
+    <text font-family="OpenSans, Open Sans" font-size="19" fill="#070707">
+      <tspan x="6.844" y="101">#07A0C8</tspan>
+    </text>
+    <ellipse fill="#07A0C8" cx="46.043" cy="34.046" rx="33.043" ry="33.046"/>
+    <path fill="#B9BBBE" d="M459.731 0l33.732 67.469H426z"/>
+    <path fill="#E6E6E6" d="M308 17h34.42v34.423H308z"/>
+    <ellipse fill="#070707" cx="193.438" cy="34.44" rx="24.438" ry="24.44"/>
+  </g>
+</svg>

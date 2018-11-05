@@ -85,16 +85,20 @@ strong {
 
 q {
   font-style: italic;
-  quotes: '"' '"' "'" "'";
+  quotes: "'" "'";
   position: relative;
 }
+
 q::before {
   content: open-quote;
-  left: -.5em;
+  left: -.2em;
   position: absolute;
 }
+
 q::after {
   content: close-quote;
+  position: absolute;
+  right: -.22;
 }
 
 /*--- images ---*/
@@ -255,25 +259,18 @@ q::after {
 }
 
 .menu li a {
-  border: 3px dotted transparent;
   font-weight: 600;
-  padding: 0 5px;
+  padding: 0 7px;
   position: relative;
 }
 
-.menu li a:focus {
-  border-color: #070707;
-}
-
-.menu li.active > a::before,
-.menu li.active > a::before,
-.menu li.active > a::before {
+.menu .active > a::before {
   bottom: -7px;
   content: '';
   display: block;
   height: 16px;
   position: absolute;
-  width: calc(100% + 6px);
+  width: 100%;
   z-index: -1;
 }
 
@@ -417,8 +414,8 @@ q::after {
   display: block;
   height: 35px;
   position: fixed;
-  right: 1.5rem;
-  top: 1.5rem;
+  right: 1rem;
+  top: 1rem;
   width: 35px;
   z-index: 99;
 }
@@ -438,6 +435,10 @@ q::after {
   height: 3px;
   position: absolute;
   right: -6px;
+  -webkit-transition: background-color .1s ease-in-out;
+  -moz-transition: background-color .1s ease-in-out;
+  -o-transition: background-color .1s ease-in-out;
+  transition: background-color .1s ease-in-out;
   width: 48px;
 }
 
@@ -472,7 +473,7 @@ q::after {
 }
 
 .subheading-case {
-  padding: 0 1.5rem 4em;
+  padding: 1em 1.5rem 4em;
   text-align: center;
 }
 
@@ -480,9 +481,23 @@ q::after {
   padding: 2em 0 1em;
 }
 
-.article-image {
-  margin: 5em 1.5rem 10em;
+.textlist {
+  margin-bottom: 2.5em;
+}
+
+.textlist li {
+  list-style-type: disc;
+  margin-left: 1em;
+}
+
+.image-article {
+  margin: 4.5rem 1.5rem 6rem;
   width: calc(100% - 3rem);
+}
+
+.image-article-inner {
+  margin-bottom: 6rem;
+  margin-top: 4.5rem;
 }
 
 .bottom-navigation {
@@ -492,16 +507,11 @@ q::after {
 }
 
 .bottom-nav-link {
-  border: 3px dotted transparent;
   color: #00CFFF;
   font-weight: 600;
   padding: 0 1rem;
   position: relative;
   text-align: center;
-}
-
-.bottom-nav-link:focus {
-  border-color: #00CFFF;
 }
 
 .next,
@@ -642,6 +652,19 @@ q::after {
     margin-bottom: 0;
     margin-right: 2em;
   }
+
+/* c a s e s 600 */
+  .image-article {
+    margin-left: 12rem;
+    margin-right: 12rem;
+    width: calc(100% - 24rem);
+  }
+
+  .image-article-inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
 }
 
 /* 9 0 0 */
@@ -682,27 +705,6 @@ q::after {
 
   .cases li:first-child {
     margin-right: 5rem;
-  }
-
-/* CASE STUDIES 900 */
-/* c a s e s  n a v 900 */
-  .go-back a {
-    height: 70px;
-    width: 70px;
-  }
-
-  .go-back span::before,
-  .go-back span::after {
-    bottom: 32px;
-    height: 6px;
-    right: -12px;
-    width: 94px;
-  }
-
-  .article-image {
-    margin-left: 9rem;
-    margin-right: 9rem;
-    width: calc(100% - 18rem);
   }
 }
 
@@ -748,5 +750,12 @@ q::after {
   .next:hover,
   .prev:hover {
     font-size: 2.1rem;
+  }
+
+/* CASE STUDIES 1200 */
+/* c a s e s  n a v 1200 */
+  .go-back:hover span::before,
+  .go-back:hover span::after {
+    background-color: red;
   }
 }
