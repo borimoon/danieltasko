@@ -473,7 +473,7 @@ q::after {
 }
 
 .subheading-case {
-  padding: 1em 1.5rem 4em;
+  padding: 1em 1.5rem 2em;
   text-align: center;
 }
 
@@ -488,6 +488,11 @@ q::after {
 .textlist li {
   list-style-type: disc;
   margin-left: 1em;
+}
+
+.image-hero {
+  margin: 0 1.5rem 6rem;
+  width: calc(100% - 3rem);
 }
 
 .image-article {
@@ -654,7 +659,12 @@ q::after {
   }
 
 /* c a s e s 600 */
-  .image-article {
+  .subheading-case {
+    padding-top: 0;
+  }
+
+  .image-article,
+  .image-hero {
     margin-left: 12rem;
     margin-right: 12rem;
     width: calc(100% - 24rem);

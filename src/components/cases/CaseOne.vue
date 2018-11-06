@@ -6,6 +6,10 @@
 
     <h2 class="subheading-case">Crafting a website for a Hungarian architects' design studio</h2>
 
+    <div class="image image-hero">
+      <img src="src/assets/cases/mi/mimu.gif" alt="Mi műhely hero animation">
+    </div>
+
     <div class="article-content">
       <h4>Background</h4>
       <p class="text">
@@ -162,6 +166,11 @@
       <h4>Methodology used</h4>
       <p class="text">
         Competitive analysis, interviews, user journey, wireframes
+      </p>
+
+      <h4>Project url</h4>
+      <p class="text">
+        <a href="http://www.mimuhely.hu" target="blank">http://www.mimuhely.hu</a>
       </p>
     </div>
 
