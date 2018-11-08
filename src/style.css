@@ -36,6 +36,12 @@ h4 {
   font-weight: 600;
 }
 
+h5 {
+  font-size: 1.8rem;
+  font-style: italic;
+  line-height: 1.7;
+}
+
 /*--- paragraphs, lists and links ---*/
 p,
 li,
@@ -309,6 +315,15 @@ q::after {
   margin-bottom: 1em;
 }
 
+.text a {
+  border-bottom: 1px solid transparent;
+}
+
+.text a:focus {
+  color: #00CFFF;
+  border-bottom-color: #00CFFF;
+}
+
 .text-center {
   font-style: italic;
   text-align: center;
@@ -338,6 +353,7 @@ q::after {
 /* w o r k */
 .work {
   background: url('assets/bg-work.svg') repeat;
+  height: 100vh;
 }
 
 .work-title {
@@ -568,6 +584,10 @@ q::after {
     height: auto;
   }
 
+  .work {
+    height: auto;
+  }
+
   .footer {
     margin-top: 5em;
   }
@@ -582,6 +602,10 @@ q::after {
   }
 
   .about {
+    height: auto;
+  }
+
+  .work {
     height: auto;
   }
 
@@ -767,5 +791,10 @@ q::after {
   .go-back:hover span::before,
   .go-back:hover span::after {
     background-color: red;
+  }
+
+  .text a:hover {
+    color: #00CFFF;
+    border-bottom-color: #00CFFF;
   }
 }

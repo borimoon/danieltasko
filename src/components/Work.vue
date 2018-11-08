@@ -29,16 +29,16 @@
             title: 'Mindful minimalism',
             href: '/mi',
             src: 'src/assets/cs-mi.svg',
-            role: 'UX/UI',
-            time: '5 minutes read'
+            role: 'UX/UI desing',
+            time: '3 minutes read'
           },
 
           {
             title: 'The new harmony',
             href: '/harmony',
             src: 'src/assets/cs-har.svg',
-            role: 'UX/UI',
-            time: '4 minutes read'
+            role: 'UX design and research',
+            time: '3 minutes read'
           }
         ]
       };

@@ -27,7 +27,7 @@
         To kick off the project, we performed a competitive analysis. Then we conducted stakeholder and user interviews. We aspired to discover the whole journey the client goes through while building a house.
       </p>
 
-      <h4>For the user interviews, we selected people</h4>
+      <p>For the user interviews, we selected people</p>
 
       <ul class="textlist">
         <li>
@@ -147,8 +147,19 @@
 
       <h3 class="article-heading">Learnings and result</h3>
 
-      <p>
-        Through interviews, it was possible to validate some initial thoughts we had. But it was a big surprise to learn how crucial is the word of mouth recommendation in the construction industry. The interactive game feature is being very well-received by clients of the Mi műhely. Mi műhely also organised a little competition for them. As a result, they received lots of wonderful artworks made of the shapes of their logo.
+      <p class="text">
+        Through interviews, it was possible to validate some initial thoughts we had. But it was a big surprise to learn how crucial is the word of mouth recommendation in the construction industry (at least in Hungary).
+      </p>
+
+      <p class="text">
+        The interactive game feature is being very well-received by clients of the Mi műhely. Mi műhely also organised a little competition for them. As a result, they received lots of wonderful artworks made of the shapes of their logo.
+      </p>
+
+      <h4>Our client's feedback</h4>
+      <p class="quote">
+        <q>
+          Unfortunately, we can't react more sophisticated: this is a big YEEEAH!
+        </q>
       </p>
 
       <h3 class="article-heading">Project details</h3>
