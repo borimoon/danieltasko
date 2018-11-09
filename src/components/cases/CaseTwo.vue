@@ -4,7 +4,7 @@
       <h1 class="heading-case">New Harmony</h1>
     </article-header>
 
-    <h2 class="subheading-case">Redesigning a website of the Harmonie dance studio</h2>
+    <h2 class="subheading-case">Redesigning the website of the Harmonie dance studio</h2>
 
     <div class="image image-hero">
       <img src="src/assets/cases/harmonie/harmo.png" alt="Harmonie tánc hero animation">
@@ -23,9 +23,9 @@
 
       <h3 class="article-heading">Discovery</h3>
 
-      <h4>Competitive analysis</h4>
+      <h4>Competitive analysis and netnography</h4>
       <p class="text">
-        For the early stage of research, we made a competitive analysis to take a comprehensive look at the contemporary dance scene and dance school market.
+        For the early stage of research, we made a competitive analysis to take a comprehensive look at the contemporary dance scene and dance school market. We also joined Facebook groups, dived into dance forums to gain a deeper understanding of dancers.
       </p>
 
       <h4>Interviews</h4>
@@ -51,7 +51,7 @@
         Even though Harmonie Dance owns a wide selection of excellent videos of their work, it was well under-represented on the old website. Focusing more on the video content seemed to be the ideal solution for giving an insight into the atmosphere of the studio's dance lessons.
       </p>
 
-      <h4>Wireframe</h4>
+      <h4>Wireframing</h4>
       <p class="text">
         Based on the insights of our research, we made many design decisions during the wireframing process. Here are some examples:
       </p>
@@ -61,22 +61,22 @@
         The Home screen of the old website contained only a single hero image and a logo. It was practically empty. We felt it vital to inform the users, to where they have arrived, and what kind of content they can expect here.
       </p>
 
-      <div class="image image-article-inner">
+      <div class="image image-article-inner" style="max-width: 650px;">
         <img src="src/assets/cases/harmonie/hcs-1.jpg" alt="Restructuring the home page">
       </div>
 
-      <h5>Rethinking the class schedule</h5>
+      <h5>Rethinking the timetable</h5>
       <p>
         A clear and comprehensible timetable was the principal feature we wanted to put in the new website. Instead of using just a traditional table format we decided to add a short class description along with the available dates and times.
       </p>
 
-      <div class="image image-article-inner">
+      <div class="image image-article-inner" style="max-width: 500px;">
         <img src="src/assets/cases/harmonie/hcs-2.jpg" alt="rethinking the class schedule">
       </div>
 
       <h4>Look and feel</h4>
       <p>
-        The students of the Harmonie dance studio are mainly female. Therefore we wanted to keep the entire design feminine and minimalistic but also dynamic.
+        The students of the Harmonie dance studio are mainly women. Therefore we wanted to keep the entire design feminine and minimalistic but also dynamic.
       </p>
     </div>
 
@@ -85,10 +85,6 @@
     </div>
 
     <div class="article-content">
-      <div class="image image-article-inner">
-        <img src="src/assets/cases/harmonie/colours.svg" alt="used colours">
-      </div>
-
       <h3 class="article-heading">Evaluation</h3>
 
       <p class="text">
@@ -98,7 +94,7 @@
       <h4>Heatmap analysis</h4>
       <p>
         The heatmap analysis validated our design in many respects and revealed some pain points too.
-        Users spent most of their time viewing video content. That fact met our former hypothesis.
+        Users spent most of their time viewing video content which met our former hypothesis.
       </p>
 
       <div class="image image-article-inner">
@@ -118,6 +114,23 @@
       </p>
 
       <h3 class="article-heading">Learnings and result</h3>
+
+      <p class="text">
+        It may sound like a cliche but the strategy must starts with research. It is essential for a successful product.
+      </p>
+
+      <p class="text">
+        At the beginning of the project, we were hired for redesigning a website. To achieve this goal we had zoom out to take a holistic view. We considered the website as just one of many touchpoints of an omnichannel user experience.
+      </p>
+
+      <p class="text">
+        From the interviews, we learned that dancers actively follow social media channels. So we encouraged the Harmonie studio to expand its social media presence. It was a surprise for us, that how important guide is the old-school looking Táncinfo (Dance info) website for many of our users.
+      </p>
+
+      <p class="text">
+        According to the website traffic data, the average number of visitors of Harmonie's website has risen from 3 to 12 per day. The conversion rate (via phone or email) has risen from 1 to 5 weekly by average.
+      </p>
+
       <h4>Our client's feedback</h4>
       <p class="quote">
         <q>
@@ -138,7 +151,7 @@
 
       <h4>Methodology used</h4>
       <p class="text">
-        Competitive analysis, interviews, usability test, user journey, wireframes, heatmap analytics
+        Competitive analysis, netnography, interviews, usability test, user journey, wireframes, heatmap analytics
       </p>
 
       <h4>Project url</h4>
